@@ -11,4 +11,4 @@
 |7|탐색트리|[탐색트리](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/7%EC%A3%BC%EC%B0%A8/%ED%83%90%EC%83%89%ED%8A%B8%EB%A6%AC%20%EC%8B%A4%EC%8A%B5.md)|
 |8|중간고사||
 
-**표절 검사 가능합니다. 복사는 지양해주세요. 🙅‍♀️**
+**그대로 복사는 지양해주세요🙅‍♀️**
