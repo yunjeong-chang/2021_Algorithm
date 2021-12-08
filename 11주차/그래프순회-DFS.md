@@ -7,8 +7,8 @@
 # define MAX 9999
 
 typedef struct Edge {
-	struct Edge* next;
 	int nodenumber;
+	struct Edge* next;
 }Edge;
 
 typedef struct Node {
