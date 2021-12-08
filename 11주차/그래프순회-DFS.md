@@ -63,6 +63,25 @@ void DFS(int start) { //순회 시작 정점 번호 start
 	}
 }
 
+/* //싸이클 찾기
+int DFS(int start) { //순회 시작 정점 번호 start
+	graph[start]->visited = 1;
+
+	Edge* horse = graph[start]->list->next;
+	while (horse != NULL) {
+		int visited = horse->edge_number;
+		if (graph[visited]->visited > 1) //싸이클이 있는 경우 1
+			return 1;
+		if (graph[visited]->visited == 0) {
+			DFS(visited);
+			graph[visited]->visited += 1;
+		}
+		horse = horse->next;
+	}
+	return 0; //다 돌았는데 싸이클 없는 경우 0
+}
+*/
+
 void freeGraph(int n) {
 	for (int i = 1; i <= n; ++i) {
 		Edge* horse = graph[i]->list;
@@ -84,7 +103,7 @@ int main() {
 
 	int edge1, edge2;
 	for (int i = 0; i < m; ++i) {
-		scanf("%d%d", &edge1, &edge2); //무방향 간선 (edge1, edge2) 입력
+		scanf("%d %d", &edge1, &edge2); //무방향 간선 (edge1, edge2) 입력
 		insertEdge(edge1, edge2);
 		insertEdge(edge2, edge1);
 	}
