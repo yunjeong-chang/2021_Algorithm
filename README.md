@@ -10,7 +10,7 @@
 |6|사전|[사전(이진탐색)](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/6%EC%A3%BC%EC%B0%A8/6%EC%A3%BC%EC%B0%A8%20%EC%8B%A4%EC%8A%B5.md)|
 |7|탐색트리|[탐색트리](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/7%EC%A3%BC%EC%B0%A8/%ED%83%90%EC%83%89%ED%8A%B8%EB%A6%AC%20%EC%8B%A4%EC%8A%B5.md)|
 |8|중간고사||
-|9|해시테이블||
+|9|해시테이블|[분리연쇄법](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/9%EC%A3%BC%EC%B0%A8/%EB%B6%84%EB%A6%AC%EC%97%B0%EC%87%84%EB%B2%95-%ED%95%B4%EC%8B%9C%ED%85%8C%EC%9D%B4%EB%B8%94.md)|
 |10|그래프||
 |11|그래프순회||
 |12|방향그래프||
