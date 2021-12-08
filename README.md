@@ -14,6 +14,6 @@
 |10|그래프|[인접리스트](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/10%EC%A3%BC%EC%B0%A8/%EA%B7%B8%EB%9E%98%ED%94%84-%EC%9D%B8%EC%A0%91%EB%A6%AC%EC%8A%A4%ED%8A%B8.md), [인접행렬](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/10%EC%A3%BC%EC%B0%A8/%EA%B7%B8%EB%9E%98%ED%94%84-%EC%9D%B8%EC%A0%91%ED%96%89%EB%A0%AC.md)|
 |11|그래프순회|[DFS](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/11%EC%A3%BC%EC%B0%A8/%EA%B7%B8%EB%9E%98%ED%94%84%EC%88%9C%ED%9A%8C-DFS.md), [BFS](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/11%EC%A3%BC%EC%B0%A8/%EA%B7%B8%EB%9E%98%ED%94%84%EC%88%9C%ED%9A%8C-BFS.md)|
 |12|방향그래프|[위상순서](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/12%EC%A3%BC%EC%B0%A8/%EB%B0%A9%ED%96%A5%EA%B7%B8%EB%9E%98%ED%94%84-%EC%9C%84%EC%83%81%EC%88%9C%EC%84%9C.md)|
-|13|최소신장트리|[Prim](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/13%EC%A3%BC%EC%B0%A8/%EC%B5%9C%EC%86%8C%EC%8B%A0%EC%9E%A5%ED%8A%B8%EB%A6%AC-Prim.md), [Kruskal]()|
+|13|최소신장트리|[Prim](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/13%EC%A3%BC%EC%B0%A8/%EC%B5%9C%EC%86%8C%EC%8B%A0%EC%9E%A5%ED%8A%B8%EB%A6%AC-Prim.md), [Kruskal](https://github.com/yunjeong-chang/2021_Algorithm/blob/main/13%EC%A3%BC%EC%B0%A8/%EC%B5%9C%EC%86%8C%EC%8B%A0%EC%9E%A5%ED%8A%B8%EB%A6%AC-Kruskal.md)|
 |14|최단경로||
 |15|기말고사||
