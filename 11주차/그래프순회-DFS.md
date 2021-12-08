@@ -7,12 +7,12 @@
 # define MAX 9999
 
 typedef struct Edge {
-	int nodenumber;
+	int edge_number;
 	struct Edge* next;
 }Edge;
 
 typedef struct Node {
-	int nodenumber;
+	int node_number;
 	int visited;
 	Edge* list;
 }Node;
@@ -22,14 +22,14 @@ Node** graph;
 Edge* createEdge(int nodenumber) {
 	Edge* newEdge = (Edge*)malloc(sizeof(Edge));
 	newEdge->next = NULL;
-	newEdge->nodenumber = nodenumber;
+	newEdge->edge_number = nodenumber;
 }
 
 void createGraph(int n) { //정점의 개수 n
 	graph = (Node**)malloc(sizeof(Node*) * (n + 1));
 	for (int i = 1; i <= n; i++) {
 		graph[i] = (Node*)malloc(sizeof(Node));
-		graph[i]->nodenumber = i;
+		graph[i]->node_number = i;
 		graph[i]->list = createEdge(0);
 		graph[i]->visited = 0;
 	}
@@ -40,7 +40,7 @@ void insertEdge(int a, int b) {
 	Edge* tmp = horse;
 	Edge* newEdge = createEdge(b);
 	while (horse != NULL) {
-		if (horse->nodenumber > b)
+		if (horse->edge_number > b)
 			break;
 		tmp = horse;
 		horse = horse->next;
@@ -52,11 +52,11 @@ void insertEdge(int a, int b) {
 
 void DFS(int start) { //순회 시작 정점 번호 start
 	graph[start]->visited = 1;
-	printf("%d\n", graph[start]->nodenumber); //방문 순서대로 정점 번호 출력
+	printf("%d\n", graph[start]->node_number); //방문 순서대로 정점 번호 출력
 
 	Edge* horse = graph[start]->list->next;
 	while (horse != NULL) {
-		int visit = horse->nodenumber;
+		int visit = horse->edge_number;
 		if (graph[visit]->visited == 0)
 			DFS(visit);
 		horse = horse->next;
