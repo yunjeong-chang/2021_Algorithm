@@ -19,10 +19,10 @@ typedef struct Node {
 
 Node** graph;
 
-Edge* createEdge(int nodenumber) {
+Edge* createEdge(int edge_number) {
 	Edge* newEdge = (Edge*)malloc(sizeof(Edge));
 	newEdge->next = NULL;
-	newEdge->edge_number = nodenumber;
+	newEdge->edge_number = edge_number;
 }
 
 void createGraph(int n) { //정점의 개수 n
